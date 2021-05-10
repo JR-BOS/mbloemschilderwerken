@@ -17,7 +17,8 @@ h1 {
 }
 
 .seven {
-  padding: 100px;
+  padding-top: 125px;
+  padding-bottom: 100px;
 }
 
 .row {
@@ -111,7 +112,7 @@ h1 {
   object-fit: cover;
 }
 
-.headline {
+.headline2 {
   position: absolute;
   top: 50% !important;
   left: 50% !important;
@@ -119,9 +120,11 @@ h1 {
   transform: translate(-50%, -50%) !important;
   color: white;
   z-index: 3;
+  width: 100%;
+  text-align: center;
 }
 
-.headline2 {
+.headline1 {
   position: absolute;
   top: 40% !important;
   left: 50% !important;
@@ -129,6 +132,8 @@ h1 {
   transform: translate(-50%, -50%) !important;
   color: white;
   z-index: 3;
+  width: 100%;
+  text-align: center;
 }
 
 .homebutton {
@@ -272,7 +277,7 @@ footer {
 /* CONTACT SECTION */
 
 .contact {
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 
 .contacttitle {
@@ -323,8 +328,8 @@ footer {
 /* END CONTACT SECTION */
 /* Rounded border */
 hr.rounded {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
+  border-top: 5px solid #bbb;
+  border-radius: 4px;
   max-width: 200px;
   margin: auto;
 }
