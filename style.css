@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+/* GENERAL STYLING SECTION */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+.seven {
+  padding: 100px;
+}
+
+.row {
+  max-width: 100% !important;
+}
+
+/* END GENERAL STYLING SECTION */
+
+/* NAVBAR STYLING SECTION */
+
+.navbar {
+  background: transparent !important;
+  position: fixed !important;
+  width: 100%;
+  z-index: 5;
+}
+
+.navbar.sticky {
+  background: #1d1d1b !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  padding: 0px 50px;
+  z-index: 5;
+  transition: all 0.3s ease;
+  box-shadow: none !important;
+}
+
+.navbar-brand img {
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky .navbar-brand img {
+  height: 50px;
+}
+
+.socialicon {
+  padding: 0px 5px;
+  color: white;
+}
+
+.socialicon:hover {
+  color: white;
+}
+
+.navbar-toggler {
+  color: white !important;
+}
+
+/*  END NAVBAR STYLING SECTION */
+
+/*  LANDING PAGE STYLING SECTION */
+
+.home {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  z-index: 3;
+}
+
+.home-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.home-content::after {
+  content: "";
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+}
+
+.home img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.headline {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  font-size: 25px;
+  transform: translate(-50%, -50%) !important;
+  color: white;
+  z-index: 3;
+}
+
+.headline2 {
+  position: absolute;
+  top: 40% !important;
+  left: 50% !important;
+  font-size: 45px;
+  transform: translate(-50%, -50%) !important;
+  color: white;
+  z-index: 3;
+}
+
+.homebutton {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 3;
+  margin-top: 150px;
+  color: white;
+  font-size: 30px;
+  transition: 0.3s ease;
+}
+
+.homebutton:hover {
+  color: #152238;
+}
+
+@media only screen and (max-width: 600px) {
+  .headline2 {
+    font-size: 30px;
+  }
+
+  .headline {
+    font-size: 14px;
+  }
+}
+
+/*  END LANDING PAGE STYLING SECTION */
+
+/* ABOUT SECTION STYLING*/
+.about #profielfoto {
+  width: 80%;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* END ABOUT SECTION STYLING */
+
+/* FOOTER SECTION */
+footer {
+  z-index: 100;
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #1d1d1b;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.footerlogo {
+  padding-bottom: 50px;
+}
+
+/* END FOOTER SECTION */
+
+/* CONTACT SECTION */
+
+.contact {
+  padding: 100px 0;
+}
+
+.contacttitle {
+  padding-bottom: 50px;
+}
+
+.contact #contactimg {
+  width: 400px;
+}
+
+.contact p {
+  text-align: justify;
+}
+
+.contact .icons {
+  margin: 10px 0;
+}
+
+.contact .contactrow {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+
+.contact .contactrow .info {
+  margin-left: 40px;
+}
+
+.contact .contactrow i {
+  font-size: 25px;
+  color: #152238;
+  width: 25px;
+}
+
+.contact .head {
+  font-weight: bold;
+}
+
+.contact .contactpicca {
+  text-align: center;
+}
+
+.contact .contactpicca img {
+  text-align: center;
+  width: 50%;
+}
+
+/* END CONTACT SECTION */
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  width: 200px;
+  margin: auto;
+}
