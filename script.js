@@ -2,7 +2,7 @@ $(document).ready(function () {
   //NAVBAR SCROLL
   $(window).scroll(function () {
     const isCollapsed = document.querySelector(".navbar-collapse.show");
-    if (this.scrollY > 20) {
+    if (this.scrollY > 1) {
       $(".navbar").addClass("sticky");
     } else {
       if (!isCollapsed) {
