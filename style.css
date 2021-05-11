@@ -40,6 +40,37 @@ h1 {
   background: #1d1d1b !important;
 }
 
+.navbar.test {
+  height: 100vh;
+  transition: none;
+}
+
+.navbar.test .navbar-brand {
+  margin: auto;
+}
+
+.navbar.test .navbar-brand img {
+  text-align: center !important;
+  margin-bottom: 150px !important;
+}
+
+.navbar.test .navbar-toggler {
+  display: none;
+}
+
+.navbar.test .nav-link {
+  font-size: 30px;
+  text-align: center;
+}
+
+.collapsing {
+  transition: none !important;
+}
+
+.navbar.test .navbar-collapse {
+  transition: none;
+}
+
 .nav-link {
   color: white !important;
 }
