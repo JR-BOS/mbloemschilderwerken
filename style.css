@@ -40,6 +40,7 @@ h1 {
   background: #1d1d1b !important;
 }
 
+/* dingen testen */
 .navbar.test {
   height: 100vh;
   transition: none;
@@ -70,6 +71,8 @@ h1 {
 .navbar.test .navbar-collapse {
   transition: none;
 }
+
+/* einde test */
 
 .nav-link {
   color: white !important;

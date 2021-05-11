@@ -27,6 +27,7 @@ toggler.addEventListener("click", function () {
   }
 });
 
+// close on click
 collapse.addEventListener("click", (e) => {
   const isCollapsed = document.querySelector(".navbar-collapse.show");
   const tagName = e.target.tagName;
