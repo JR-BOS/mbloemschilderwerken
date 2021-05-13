@@ -428,6 +428,10 @@ hr.rounded {
   .title2 {
     font-size: 16px;
   }
+
+  .contact .contactpicca {
+    margin-bottom: 50px;
+  }
 }
 
 .card-header {
