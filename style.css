@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Radley&display=swap");
+s
+
 /* GENERAL STYLING SECTION */
 
 * {
@@ -17,8 +20,8 @@ h1 {
 }
 
 .seven {
-  padding-top: 125px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .row {
@@ -32,7 +35,7 @@ h1 {
 .navbar {
   background: transparent !important;
   position: fixed !important;
-  width: 100%;
+  width: 100vw;
   z-index: 5;
 }
 
@@ -92,7 +95,7 @@ h1 {
 }
 
 .navbar.sticky .navbar-brand img {
-  height: 50px;
+  height: 35px;
 }
 
 .socialicon {
@@ -169,6 +172,7 @@ h1 {
   z-index: 3;
   width: 100%;
   text-align: center;
+  font-family: "Radley", serif;
 }
 
 .homebutton {
@@ -189,7 +193,7 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .headline2 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .headline {
@@ -347,7 +351,7 @@ footer {
 
 .contact .contactrow i {
   font-size: 25px;
-  color: #152238;
+  color: #1d1d1b;
   width: 25px;
 }
 
@@ -371,4 +375,61 @@ hr.rounded {
   border-radius: 4px;
   max-width: 200px;
   margin: auto;
+}
+
+.services {
+  background: #b0c3c1;
+}
+
+.about,
+.services {
+  padding-bottom: 100px;
+}
+.infotext {
+  font-size: 16px;
+  padding-top: 30px;
+}
+@media (max-width: 710px) {
+  .headline1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 471px) {
+  .headline1 {
+    font-size: 40px;
+  }
+
+  .smalltitle {
+    display: block;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about #profielfoto {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .row {
+    margin: auto !important;
+  }
+
+  .dienst {
+    margin-bottom: 50px;
+  }
+
+  .infotext {
+    font-size: 16px;
+    padding-top: 30px;
+  }
+
+  .title2 {
+    font-size: 16px;
+  }
+}
+
+.card-header {
+  padding: 20px !important;
 }
