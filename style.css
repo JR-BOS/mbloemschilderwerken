@@ -384,14 +384,17 @@ hr.rounded {
 }
 
 .about,
-.services,
-.contact {
+.services {
   /* padding-bottom: 100px; */
   padding-top: 150px;
 }
 
 .services {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
+}
+
+.contact {
+  padding-top: 100px;
 }
 
 .infotext {
@@ -484,7 +487,7 @@ hr.rounded {
 .offerte {
   display: flex;
   position: relative;
-  height: 400px;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   background: white;
@@ -493,7 +496,7 @@ hr.rounded {
 
 .offerte-content {
   width: 100%;
-  height: 100%;
+  height: 70%;
   position: relative;
   z-index: 2;
 }
