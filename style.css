@@ -532,3 +532,7 @@ hr.rounded {
   text-align: center;
   border-radius: 6px;
 }
+
+.contactheader {
+  margin-bottom: 80px !important;
+}
