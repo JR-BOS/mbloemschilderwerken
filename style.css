@@ -150,12 +150,13 @@ h1 {
   position: absolute;
   top: 50% !important;
   left: 50% !important;
-  font-size: 25px;
+  font-size: 20px;
   transform: translate(-50%, -50%) !important;
   color: white;
   z-index: 3;
   width: 100%;
   text-align: center;
+  font-family: "Radley", serif;
 }
 
 .headline1 {
@@ -409,18 +410,20 @@ hr.rounded {
 
 @media (max-width: 710px) {
   .headline1 {
-    font-size: 30px;
+    font-size: 50px !important;
+  }
+  .smalltitle {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 471px) {
-  .headline1 {
-    font-size: 40px;
-  }
-
   .smalltitle {
     display: block;
     font-size: 20px;
+    margin-bottom: 50px;
   }
 }
 
