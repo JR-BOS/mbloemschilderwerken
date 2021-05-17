@@ -11,6 +11,10 @@ s
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif !important;
 }
@@ -163,7 +167,7 @@ h1 {
   position: absolute;
   top: 40% !important;
   left: 50% !important;
-  font-size: 45px;
+  font-size: 55px !important;
   transform: translate(-50%, -50%) !important;
   color: white;
   z-index: 3;
@@ -408,14 +412,25 @@ hr.rounded {
   padding-top: 30px;
 }
 
-@media (max-width: 710px) {
+@media (max-width: 991px) {
   .headline1 {
     font-size: 50px !important;
   }
+
   .smalltitle {
     display: block;
     font-size: 20px;
     margin-bottom: 50px;
+  }
+
+  .responsiveblock {
+    width: 100vw !important;
+    display: inline-block !important;
+    padding-bottom: 50px;
+  }
+
+  .footerinfo {
+    margin-top: 20px !important;
   }
 }
 
@@ -479,13 +494,6 @@ hr.rounded {
 .testrow {
   background: black;
 }
-
-/* .cta img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  height: 400px;
-} */
 
 .offerte {
   display: flex;
